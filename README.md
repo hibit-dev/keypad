@@ -8,7 +8,7 @@ In the world of DIY electronics, Arduino stands as a go-to tool for creators and
 └ schema  
 
 ## Documentation
-You'll find instructions and full documentation on [HiBit](https://www.hibit.dev/posts/134/exploring-the-arduino-matrix-membrane-keypad). It includes detailed info on how to wire and use the module.
+You'll find instructions and full documentation on [HiBit](https://www.hibit.dev/posts/134/integrating-membrane-keypad-with-arduino). It includes detailed info on how to wire and use the module.
 
 ## Security
 If you discover any security related issues, please email security@hibit.dev instead of using the issue tracker.
