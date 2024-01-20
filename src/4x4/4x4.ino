@@ -1,11 +1,11 @@
 // -------------------------------------------------
-// Copyright (c) 2023 HiBit <https://www.hibit.dev>
+// Copyright (c) 2024 HiBit <https://www.hibit.dev>
 // -------------------------------------------------
 
 #include "Keypad.h"
 
-const int COLS = 4; // Amount of columns on the keypad
 const int ROWS = 4; // Amount of rows on the keypad
+const int COLS = 4; // Amount of columns on the keypad
 
 char keys[ROWS][COLS] = {
   {'1', '2', '3', 'A'},
@@ -22,6 +22,7 @@ Keypad MyKeypad = Keypad(makeKeymap(keys), PINS_ROW, PINS_COL, ROWS, COLS);
 void setup()
 {
   Serial.begin(115200);
+  Serial.print("Starting...");
 }
 
 void loop()
@@ -30,7 +31,7 @@ void loop()
 
   // Check if some key is pressed
   if (key) {
-    Serial.print("Key Pressed : ");
+    Serial.print("Key Pressed: ");
     Serial.println(key);
   }
 }

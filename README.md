@@ -2,6 +2,7 @@
 In the world of DIY electronics, Arduino stands as a go-to tool for creators and hobbyists. Today, we're exploring the integration of a 4x4 membrane keypad module with an Arduino, a combination that introduces an interactive layer to your electronic projects.   
 
 ├ src  
+│  ├ 1x4 
 │  ├ 3x4  
 │  └ 4x4  
 ├ lib  
